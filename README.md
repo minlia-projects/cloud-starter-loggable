@@ -2,16 +2,8 @@
 
 打印出请求参数与各项请求指标  
 
-## TODO  
-添加parameter语言请求参数配置项  
 
-## Done  
-Header区域请求头配置项  
-
-## 依赖项目  
-cloud-starter-context  
-
-## 添加依赖项:  
+## 集成到自已的项目时添加依赖项  
 ```pom
 <dependency>
   <groupId>com.minlia.cloud.starter</groupId>
