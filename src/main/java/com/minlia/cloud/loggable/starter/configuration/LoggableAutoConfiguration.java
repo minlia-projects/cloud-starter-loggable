@@ -20,14 +20,14 @@ public class LoggableAutoConfiguration {
 
   @Bean
   @ConditionalOnMissingBean
-  public Logger logger(){
+  public Logger logger() {
     return new Logger();
   }
 
   @Bean
   @ConditionalOnMissingBean
-  public LoggerInterceptor loggerInterceptor(){
-    return new LoggerInterceptor(logger(),loggerFormats());
+  public LoggerInterceptor loggerInterceptor() {
+    return new LoggerInterceptor(logger(), loggerFormats());
   }
 
   @Bean
