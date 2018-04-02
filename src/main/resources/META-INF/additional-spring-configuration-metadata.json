@@ -1,0 +1,25 @@
+{
+  "properties": [
+    {
+      "name": "system.mvc.loggable.enabled",
+      "description": "Is mvc layer logging shown in our application.",
+      "type": "java.lang.Boolean",
+      "defaultValue": true
+    }
+  ],
+  "hints": [
+    {
+      "name": "system.mvc.loggable.enabled",
+      "values": [
+        {
+          "value": "true",
+          "description": "Enable mvc layer logging shown in our application."
+        },
+        {
+          "value": "false",
+          "description": "Disable mvc layer logging shown in our application."
+        }
+      ]
+    }
+  ]
+}
