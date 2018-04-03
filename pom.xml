@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.minlia.cloud.starter</groupId>
   <artifactId>cloud-starter-loggable</artifactId>
-  <version>2.0.0.RELEASE</version>
+  <version>2.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Cloud Starter Loggable</name>
@@ -14,7 +16,7 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.0.0.RELEASE</version>
-    <relativePath /> <!-- lookup parent from repository -->
+    <relativePath/> <!-- lookup parent from repository -->
   </parent>
   
   <scm>
@@ -25,7 +27,7 @@
       scm:git:https://github.com/minlia-projects/cloud-starter-loggable.git
     </developerConnection>
     <url>https://github.com/minlia-projects/cloud-starter-loggable</url>
-    <tag>v2.0.0.RELEASE</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
@@ -37,7 +39,7 @@
 
   <dependencies>
 
-    
+    <!---->
     <!--<dependency>-->
     <!--<groupId>org.apache.commons</groupId>-->
     <!--<artifactId>commons-lang3</artifactId>-->
@@ -79,12 +81,6 @@
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>
       <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
     </dependency>
 
   </dependencies>
